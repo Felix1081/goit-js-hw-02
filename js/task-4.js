@@ -1,5 +1,6 @@
 function getShippingCost(country) {
-    const China = 170;
+    let price;
+    
     switch (country) {
         case `China`:
             price = 100;
